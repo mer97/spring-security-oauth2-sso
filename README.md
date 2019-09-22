@@ -2,7 +2,7 @@
 
 基于Spring Boot 2、AD域认证、Spring Security OAuth2 实现的单点登录（SSO）系统
 
-此demo包含了一个SSO服务端和两个客户端
+demo包含了一个SSO服务端（sso-server）和两个客户端（client-user、client-order）
 
 我的环境是IDEA、Maven、jdk1.8
 
