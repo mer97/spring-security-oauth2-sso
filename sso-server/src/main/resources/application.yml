@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/permission?serverTimezone=UTC
+    username: root
+    password: leemer
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+  session:
+    store-type: redis
+  redis:
+    host: 120.79.208.233
+    port: 6379
+  thymeleaf:
+    cache: false
+server:
+  port: 8080
+
+app:
+  ldap:
+    url: ldap://192.168.1.105:389 # AD域连接地址
+    domain: contoso.com # 域名称

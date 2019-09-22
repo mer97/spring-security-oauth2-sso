@@ -1,0 +1,23 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /orderSystem
+  thymeleaf:
+      cache: false
+security:
+  oauth2:
+    client:
+      client-id: OrderManagement
+      client-secret: order123
+      access-token-uri: http://localhost:8080/oauth/token
+      user-authorization-uri: http://localhost:8080/oauth/authorize
+    resource:
+      jwt:
+        key-uri: http://localhost:8080/oauth/token_key
+        key-value: leemer
+app:
+  sso:
+    login:
+      url: http://localhost:8080/login
+    logout:
+      url: http://localhost:8080/logout

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/public/base/bootstrap-4.3.1/css/bootstrap.css}">
+    <link rel="stylesheet" th:href="@{/public/base/bootstrap-4.3.1/css/bootstrap-table.css}">
+    <script th:src="@{/public/base/js/jquery-3.4.0.min.js}"></script>
+    <script th:src="@{/public/base/bootstrap-4.3.1/js/bootstrap.js}"></script>
+    <script th:src="@{/public/base/bootstrap-4.3.1/js/bootstrap-table.js}"></script>
+    <script th:src="@{/public/base/bootstrap-4.3.1/js/bootstrap-table-zh-CN.js}"></script>
+    <script th:src="@{/public/base/js/common.js}"></script>
+</head>
+<body class="container table-responsive">
+    <div class="bs-callout bs-callout-info">
+        <h4>用户列表&nbsp;&nbsp;<a th:href="@{/api/v1/logout}">退出</a></h4>
+    </div>
+    <table id="table"></table>
+</body>
+<script type="text/javascript">
+    //设置需要显示的列
+    var columns = [{
+        field: 'username',
+        title: '用户名'
+    }, {
+        field: 'gender',
+        title: '性别'
+    }, {
+        field: 'age',
+        title: '年龄'
+    }, ];
+
+    //bootstrap table初始化数据
+    $('#table').bootstrapTable({
+        columns: columns,
+        url: '/userSystem/api/v1/user/list',
+        classes: "table table-hover", //设置表格样式
+        striped: true,
+        // formatNoMatches:function(){
+        //     return "暂无数据";
+        // }
+    });
+
+</script>
+</html>
