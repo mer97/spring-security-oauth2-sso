@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f0eacb-ee26-4b68-b6cc-19f4948fe915" name="Default" comment="" />
+    <list default="true" id="08f0eacb-ee26-4b68-b6cc-19f4948fe915" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sso-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso-server/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/sso-server/src/main/resources/templates/login.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/sso-server/target/" />
     <ignored path="$PROJECT_DIR$/client-user/target/" />
     <ignored path="$PROJECT_DIR$/client-order/target/" />
@@ -13,7 +17,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,6 +60,9 @@
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -86,7 +115,6 @@
         <option value="$PROJECT_DIR$/client-order/src/main/java/top/leemer/clientorder/common/bean/ErrorResponse.java" />
         <option value="$PROJECT_DIR$/client-order/src/main/resources/templates/templates/web/order/list.html" />
         <option value="$PROJECT_DIR$/client-order/src/main/java/top/leemer/clientorder/order/controller/OrderRestController.java" />
-        <option value="$PROJECT_DIR$/sso-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/client-order/src/main/java/top/leemer/clientorder/common/security/config/UserSecurityConfig.java" />
         <option value="$PROJECT_DIR$/client-user/src/main/java/top/leemer/clientuser/common/security/config/UserSecurityConfig.java" />
         <option value="$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/WebSecurityCorsFilter.java" />
@@ -97,7 +125,6 @@
         <option value="$PROJECT_DIR$/client-order/src/main/java/top/leemer/clientorder/order/controller/OrderPageController.java" />
         <option value="$PROJECT_DIR$/client-order/src/main/resources/templates/web/order/list.html" />
         <option value="$PROJECT_DIR$/sso-server/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/sso-server/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/sso-server/src/main/resources/templates/error/404.html" />
         <option value="$PROJECT_DIR$/client-user/src/main/resources/templates/error/404.html" />
         <option value="$PROJECT_DIR$/client-order/src/main/resources/templates/error/404.html" />
@@ -106,6 +133,8 @@
         <option value="$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/bean/ErrorResponse.java" />
         <option value="$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/client-order/src/main/java/top/leemer/clientorder/common/bean/AjaxAuthFailureHandler.java" />
+        <option value="$PROJECT_DIR$/sso-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/sso-server/src/main/resources/templates/login.html" />
       </list>
     </option>
   </component>
@@ -129,15 +158,17 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="15" />
-    <option name="y" value="42" />
-    <option name="width" value="1944" />
+    <option name="y" value="40" />
+    <option name="width" value="1945" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -146,11 +177,62 @@
               <item name="spring-security-oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-security-oauth2-sso" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-security-oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-security-oauth2-sso" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-security-oauth2-sso" type="462c0819:PsiDirectoryNode" />
+              <item name="sso-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -173,11 +255,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\IdeaProjects\spring-security-oauth2-sso" />
       <recent name="D:\JetBrains\IdeaProjects\spring-security-oauth2-sso\client-order\src\main\resources\templates" />
       <recent name="D:\JetBrains\IdeaProjects\spring-security-oauth2-sso\client-order\src\main\resources\static" />
       <recent name="D:\JetBrains\IdeaProjects\spring-security-oauth2-sso\client-order\src\main\java\top\leemer\clientorder" />
       <recent name="D:\JetBrains\IdeaProjects\spring-security-oauth2-sso\client-order\src\main\resources" />
-      <recent name="D:\JetBrains\IdeaProjects\spring-security-oauth2-sso\client-user\src\main\resources\static\public\base\js" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="top.leemer.ssoserver.base.controller" />
@@ -310,7 +392,8 @@
       <workItem from="1568951176751" duration="16468000" />
       <workItem from="1569051891201" duration="1661000" />
       <workItem from="1569053852111" duration="17546000" />
-      <workItem from="1569115513116" duration="9561000" />
+      <workItem from="1569115513116" duration="10901000" />
+      <workItem from="1569200482081" duration="1744000" />
     </task>
     <servers />
   </component>
@@ -320,7 +403,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57356000" />
+    <option name="totallyTimeSpent" value="60440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -344,15 +427,14 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.84302324" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4059829" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32994187" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32994187" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26072386" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32763532" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26541555" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="JRebel" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32848838" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -360,6 +442,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32848838" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,9 +452,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/static/assets/js/jquery-3.4.0.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/client-user/src/main/resources/static/public/base/js/jquery-3.4.0.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -388,8 +468,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://D:/maven/repository/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE.jar!/org/springframework/security/messages_zh_CN.properties">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client-user/src/main/resources/messages_zh_CN.properties.bak" />
     <entry file="file://$PROJECT_DIR$/client-user/src/main/resources/static/public/base/js/common.js">
@@ -450,9 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -481,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.24/tomcat-embed-core-9.0.24.jar!/javax/servlet/FilterConfig.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -495,16 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/WebSecurityCorsFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="25" column="69" lean-forward="true" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/config/WebSecurityCorsFilter.java" />
     <entry file="file://$PROJECT_DIR$/sso-server/src/main/java/top/leemer/ssoserver/common/security/service/MyLdapUserDetailsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -547,16 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/templates/error/404.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1624">
@@ -582,9 +633,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="580">
           <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,9 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,14 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -617,11 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1866#1867#0" expanded="true" />
-            <element signature="e#1933#1934#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -639,9 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,9 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,9 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,9 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="609">
           <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -679,9 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1552">
           <caret line="55" column="28" lean-forward="true" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -689,9 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1711">
           <caret line="77" column="61" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,6 +725,30 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/退出.URL">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/permission.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sso-server/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="33" selection-end-line="42" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

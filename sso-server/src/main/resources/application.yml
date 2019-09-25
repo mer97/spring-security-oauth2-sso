@@ -9,7 +9,7 @@ spring:
   session:
     store-type: redis
   redis:
-    host: 120.79.208.233
+    host: 127.0.0.1
     port: 6379
   thymeleaf:
     cache: false
@@ -18,5 +18,5 @@ server:
 
 app:
   ldap:
-    url: ldap://192.168.1.105:389 # AD域连接地址
+    url: ldap://192.168.3.61:389 # AD域连接地址
     domain: contoso.com # 域名称
