@@ -3,7 +3,6 @@ package top.leemer.ssoserver.common.security.config;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.annotation.Order;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
@@ -28,7 +27,6 @@ import java.util.Map;
  */
 @Configuration
 @EnableWebSecurity
-@Order(2)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     private static Map<String, String> USER_MAP;
