@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/client-order/client-order.iml" filepath="$PROJECT_DIR$/client-order/client-order.iml" />
       <module fileurl="file://$PROJECT_DIR$/client-user/client-user.iml" filepath="$PROJECT_DIR$/client-user/client-user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/spring-security-oauth2-sso.iml" filepath="$PROJECT_DIR$/.idea/spring-security-oauth2-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-security-oauth2-ad-sso.iml" filepath="$PROJECT_DIR$/.idea/spring-security-oauth2-ad-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/sso-server/sso-server.iml" filepath="$PROJECT_DIR$/sso-server/sso-server.iml" />
     </modules>
   </component>
