@@ -20,9 +20,9 @@ public class OrderRestController {
     private ObjectMapper objectMapper = new ObjectMapper();
 
     /**
-     * 获取用户列表。
+     * 获取订单列表。
      * 权限验证：
-     *      当请求/api/v1/order/list接口时，判断该用户是否拥有“USER”权限。
+     *      当请求/api/v1/order/list接口时，判断该用户是否拥有“ORDER”权限。
      *
      * @return
      */
@@ -39,7 +39,7 @@ public class OrderRestController {
         node.put("price", 98.8);
         node.put("username", "桂香");
         ObjectNode node2 = objectMapper.createObjectNode();
-        node2.put("productName", "十八子作菜刀");
+        node2.put("productName", "十八子菜刀");
         node2.put("number", 1);
         node2.put("price", 39);
         node2.put("username", "凯凯");

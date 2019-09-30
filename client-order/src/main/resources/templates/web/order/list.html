@@ -14,7 +14,7 @@
 </head>
 <body class="container table-responsive">
     <div class="bs-callout bs-callout-info">
-        <h4>订单列表&nbsp;&nbsp;<a th:href="@{/api/v1/logout}">退出</a></h4>
+        <h4>订单列表&nbsp;&nbsp;<span th:text="${username}"></span>&nbsp;&nbsp;<a th:href="@{/api/v1/logout}">退出</a></h4>
     </div>
     <table id="table"></table>
 </body>

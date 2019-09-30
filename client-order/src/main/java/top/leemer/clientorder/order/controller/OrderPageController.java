@@ -2,8 +2,11 @@ package top.leemer.clientorder.order.controller;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.security.Principal;
 
 /**
  * @author LEEMER
@@ -22,7 +25,8 @@ public class OrderPageController {
      */
     @PreAuthorize("hasAuthority('ORDER')")
     @GetMapping("/list")
-    public String toOrderListPage(){
+    public String toOrderListPage(Principal principal, Model model){
+        model.addAttribute("username", principal.getName());
         return "/web/order/list";
     }
 

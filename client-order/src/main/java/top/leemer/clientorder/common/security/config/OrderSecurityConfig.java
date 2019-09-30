@@ -14,6 +14,7 @@ import top.leemer.clientorder.common.bean.ErrorResponse;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.security.Principal;
 
 /**
  * @author LEEMER
@@ -71,6 +72,7 @@ public class OrderSecurityConfig extends WebSecurityConfigurerAdapter {
                 HttpServletResponse response,
                 AccessDeniedException accessDeniedException) -> {
             String requestedWithHeader = request.getHeader("X-Requested-With");
+            System.err.println(accessDeniedException.getMessage());
             if ("XMLHttpRequest".equals(requestedWithHeader)) {
                 ErrorResponse errorResponse = new ErrorResponse(accessDeniedException.getMessage());
                 response.setStatus(HttpServletResponse.SC_FORBIDDEN);

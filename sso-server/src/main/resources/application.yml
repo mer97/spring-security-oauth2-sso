@@ -15,8 +15,3 @@ spring:
     cache: false
 server:
   port: 8080
-
-app:
-  ldap:
-    url: ldap://192.168.3.61:389 # AD域连接地址
-    domain: contoso.com # 域名称
