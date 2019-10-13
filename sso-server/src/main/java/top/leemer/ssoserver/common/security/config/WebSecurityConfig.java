@@ -16,10 +16,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import top.leemer.ssoserver.common.bean.AjaxAuthFailureHandler;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * @author LEEMER
@@ -29,7 +26,10 @@ import java.util.Map;
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
-    private static Map<String, String> USER_MAP;
+    private static Map<String, String> USER_MAP = new HashMap<>();
+
+//    @Autowired
+//    private StringRedisTemplate stringRedisTemplate;
 
     @Autowired
     private PasswordEncoder passwordEncoder;
@@ -38,7 +38,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
      * 模拟数据库用户名和密码
      */
     static {
-        USER_MAP = new HashMap();
         USER_MAP.put("zhangsan", "123456");
         USER_MAP.put("lisi", "123456");
     }
@@ -70,6 +69,19 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
             simpleGrantedAuthorities.add(new SimpleGrantedAuthority("ADMIN"));
             simpleGrantedAuthorities.add(new SimpleGrantedAuthority("USER"));
 
+//            String usernameKey = "spring:session:index:org.springframework.session.FindByIndexNameSessionRepository.PRINCIPAL_NAME_INDEX_NAME:"
+//                            + username;
+
+//            stringRedisTemplate.delete(usernameKey);
+
+//            Set set = stringRedisTemplate.keys("*");
+//            for (Object o : set) {
+//                System.err.println(o);
+//            }
+
+//            System.err.println(stringRedisTemplate.opsForValue().get(usernameKey));
+
+//            System.err.println(username+"----"+simpleGrantedAuthorities);
             return User.withUsername(username)
                     .password(passwordEncoder.encode(USER_MAP.get(username)))
                     .authorities(simpleGrantedAuthorities)
@@ -102,9 +114,15 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .failureHandler(ajaxAuthFailureHandler)
                 .and()
                 .authorizeRequests()
-                .antMatchers("/login").permitAll()
+                .antMatchers("/login")
+                .permitAll()
                 .anyRequest()
                 .authenticated()
+                .and()
+                .logout()
+                .clearAuthentication(true)
+                .invalidateHttpSession(true)
+                .deleteCookies("JSESSIONID")
                 .and().csrf().disable().cors();
     }
 
